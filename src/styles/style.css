@@ -1,3 +1,13 @@
+:root {
+    /* colors */
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff;
+    --app-background-color: #111111;
+    --background-color: #232323;
+    --foreground-color: #343434;
+    --highlight-color: #4E9F3D;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +16,8 @@
   
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #0a0a23;
-    color: #ffffff;
+    background-color: var(--app-background-color);
+    color: var(--primary-color);
   }
   
   .container {
@@ -37,12 +47,12 @@
     flex-wrap: wrap;
     padding: 20px;
     margin: 10px 0;
-    background-color: white;
-    box-shadow: 0 6px 6px #002ead;
+    background-color: var(--background-color);
+    box-shadow: 0 6px 6px var(--highlight-color);
   }
   
   label {
-    color: #0a0a23;
+    color: var(--primary-color);
     margin-bottom: 20px;
   }
   
@@ -51,8 +61,8 @@
     border: none;
     padding: 10px;
     border-radius: 15px;
-    background-color: #5a01a7;
-    color: #fff;
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
     cursor: pointer;
   }
   
@@ -63,7 +73,7 @@
     font-size: 1.2rem;
     margin: 10px;
     border: none;
-    border-bottom: 2px solid #5a01a7;
+    border-bottom: 2px solid var(--highlight-color);
   }
   
   .palindrome-input:focus {
