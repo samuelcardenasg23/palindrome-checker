@@ -14,4 +14,4 @@ A web application to check if a given text is a palindrome. A palindrome is a wo
 - Removes non-alphanumeric characters: Non-alphanumeric characters are removed before checking for palindrome.
 
 ## Getting Started
-Just open [Palindrome Checker](https://github.com/samuelcardenasg23/palindrome-checker.git)
+Just open [Palindrome Checker](https://samuelcardenasg23.github.io/palindrome-checker/)
